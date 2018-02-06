@@ -1,10 +1,7 @@
+// version with only one loop
+
 function drawTree(n) {
-	for ( var i = 0 ; i < n ; i++) {
-		var star = "*";
-		for ( var j = 0; j < i; j++) {
-			star += '*';
-		}
-		console.log(star);
-	}
+	for (var i = "*"; i.length < n; i += "*")
+    console.log(i);
 }
-drawTree(7);
+drawtree(7)
